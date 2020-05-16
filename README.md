@@ -17,6 +17,9 @@ Ref https://spring.io/tools
 5)	Install AWS SDK toolkit for eclipse.
 Ref https://aws.amazon.com/eclipse/
 
+6) Install putty.
+Ref https://www.putty.org/
+
 
 ## Use this for your user data (script without newlines)
 ## install httpd (Linux 2 version)
