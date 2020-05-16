@@ -80,7 +80,7 @@ public class LambdaFunctionHandler implements RequestHandler<Object, String> {
 		}
 
 		// Shutdown all instances after receiving mail from user.
-		if (inputJson.contains("<shutdown>")) {
+		if (inputJson.contains("<stop>")) {
 			if (group.getDesiredCapacity() > 0) {
 				UpdateAutoScalingGroupRequest shutDownRequest = new UpdateAutoScalingGroupRequest()
 						.withAutoScalingGroupName(ASG).withMinSize(0).withDesiredCapacity(0);
