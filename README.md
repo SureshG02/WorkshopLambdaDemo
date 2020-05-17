@@ -2,11 +2,15 @@
 
 # Prerequisite:
 
+# Part 1
+
 1)	Set up free tier AWS account. Note: You will need to provide card details. Till you are within free tier limit there won’t be any charge.
 Ref https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc
 
 2) Install putty.
 Ref https://www.putty.org/
+
+# Part 2
 
 3)	Install AWS CLI for windows.
 Ref https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html
